@@ -1,0 +1,11 @@
+{
+  "name": "vote-web",
+  "version": "1.0.0",
+  "description": "A responsive web app that enables users to vote for their candidate of choice.",
+  "scripts": {
+    "dev:client": "cd client && npm run dev",
+    "install:client": "cd client && npm install",
+    "uninstall:client": "cd client && npm uninstall",
+    "on:client": "cd client &&"
+  }
+}
