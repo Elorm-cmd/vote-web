@@ -44,7 +44,7 @@ function App() {
   return (
     <div className="w-screen h-screen overflow-hidden">
       <Instructions />
-      <div className="w-1/2 h-screen absolute top-0 left-1/2 flex flex-col items-center">
+      <div className="w-1/2 h-screen absolute top-0 left-1/2 flex flex-col items-center overflow-hidden">
         <AppNavBar />
         <img src={thumbsUp} className="rounded-full h-14 w-14 mt-16"></img>
         <p className=" text-3xl mt-8 font-bold">Welcome!</p>
@@ -92,6 +92,7 @@ function App() {
             <a href="#" className="text-[#7FB494]">
               Sign Up
             </a>
+            <Link to="/signup"> Sign up</Link>
           </p>
         </div>
       </div>

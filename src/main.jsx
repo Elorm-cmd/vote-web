@@ -4,12 +4,12 @@ import App from "./App.jsx";
 import "./index.css";
 import { createBrowserRouter } from "react-router-dom";
 import { RouterProvider } from "react-router-dom";
-import Categories from "./Categories.jsx";
+import Categories from "./Pages/Categories.jsx";
 // import Candidate from "./Candidates.jsx";
-import CandidateList from "./CandidateList.jsx";
-import AuthenticationPage from "./AuthenticationPage.jsx";
+import CandidateList from "./Pages/CandidateList.jsx";
+import AuthenticationPage from "./Pages/AuthenticationPage.jsx";
 import CandidateForm from "./Pages/CandidateForm.jsx";
-import ConfirmOTP from "./ConfirmOTP.jsx";
+import ConfirmOTP from "./Pages/ConfirmOTP.jsx";
 
 const router = createBrowserRouter([
   {

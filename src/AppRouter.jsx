@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Categories from "./Categories";
+import Categories from "./Pages/Categories";
 
 const AppRouter = () => {
   return (

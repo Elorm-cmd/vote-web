@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const ConfirmOTP = () => {
   const [otp, setOTP] = useState("");
@@ -53,13 +54,15 @@ const ConfirmOTP = () => {
             />
           </form>
         </div>
-        <button
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full"
-          onClick={handleVerifyOTP}
-          type="submit"
-        >
-          Verify OTP
-        </button>
+        <Link to="/categories">
+          <button
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full"
+            onClick={handleVerifyOTP}
+            type="submit"
+          >
+            Verify OTP
+          </button>
+        </Link>
       </div>
     </div>
   );
